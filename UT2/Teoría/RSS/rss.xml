@@ -1,0 +1,11 @@
+<?xml version=”1.0″ encoding=”UTF-8″ ?>
+<rss version=”2.0″>
+    <channel>
+
+        <title>Prueba</title>
+        <link>index.html</link>
+        <description>Probando RSS.</description>
+        <copyright>CC 4.0 – BY-SA<copyright>
+
+    </channel>
+</rss>

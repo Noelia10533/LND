@@ -1,0 +1,89 @@
+/* Estilos comunes para este body */
+body{
+height: 100vh;
+width: 100vw;
+margin: 0px;
+overflow: hidden;
+}
+
+/* Estilos de la página del equipo */
+body.team-page {
+    background-image: url(ghost-pokemon-1131-x-707-61zjnpz87hu0qf3q.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#menu-container{
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#main{
+flex: 9;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+place-items: center;
+overflow: visible;
+}
+
+u{
+height: 50%;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+#menu a{
+flex: 1;
+background-color: rgba(81, 16, 99, 0.7);
+border-radius: 20%;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#menu a:hover{
+background-color: plum;
+transform: scale(1.2);
+z-index: 10;
+}
+
+.pokemon{
+border-radius: 20%;
+height: 90%;
+width: 60%; /* Lo he subido de 40% a 60% para que se vea mejor */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.pokemon img {
+flex: 1;
+max-height: 120px;
+object-fit: contain;
+margin-bottom: 0.5rem;
+}
+
+.pokemon h2, .pokemon h3{
+flex: 1;
+color: white;
+font-size: 1.1rem;
+text-align: center; 
+margin: 0;
+}
+
+.pokemon:hover{
+box-shadow: 4px 4px 12px rgb(231, 12, 209);
+transform: scale(1.1);
+}

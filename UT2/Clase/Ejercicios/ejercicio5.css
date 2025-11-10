@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+.articulo .titulo {
+  color: navy;
+}
+
+div.articulo p {
+  color: grey;
+  font-size: 16px;
+}
+
+.meta .autor {
+  font-weight: bold;
+  color: black;
+}
+
+.contenido p {
+  color: darkslategray;
+}
+
+/*Se cumplen todos menos el cuarto y se aplican las demás. La primera regla para le h2, el ssegundo para todo p y el tercero solo para la 
+palabra "Ana" */

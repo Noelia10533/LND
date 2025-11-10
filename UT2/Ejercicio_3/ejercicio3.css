@@ -1,0 +1,14 @@
+/*Regla 1*/
+#principal .caja p span{           /*Se cumple y es la primera ya que tiene el !important*/
+    color: brown !important;
+}
+
+/*Regla 2*/
+section div p.info span{           /*Se cumple*/
+    color: magenta;
+}
+
+/*Regla 3*/
+#principal span{                  /*Se cumple*/
+    color: black;
+}

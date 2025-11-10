@@ -1,0 +1,16 @@
+#menu-principal li a {
+  text-decoration: none;
+  color: blue;
+}
+
+#menu-principal a.activo {
+  color: red;
+  font-style: italic;
+}
+
+.item-menu a:hover {
+  text-decoration: underline;
+}
+
+/*Se cumple la primera en todas los <li>, pero la segunda se prioriza a la primera porque tiene un id y una clase, por tanto en la primera <li>
+se aplica la segunda regla (el color rojo). La tercera regla no se cumple. */

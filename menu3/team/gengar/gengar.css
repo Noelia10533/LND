@@ -1,0 +1,35 @@
+
+body{
+height: 100vh;
+width: 100vw;
+margin: 0px;
+overflow-x: hidden;
+}
+
+
+body.main-page {
+background-image: linear-gradient(90deg, black, purple,black);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.info-gengar {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-gengar img {
+    width: 150px;
+    image-rendering: pixelated;
+}
+.info-gengar a {
+    color: plum;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}

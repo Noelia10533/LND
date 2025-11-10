@@ -1,0 +1,16 @@
+/* Regla 1 */
+div.principal p {
+    color: blue;
+}
+
+/* Regla 2 */
+.contenedor .texto {
+    color: red;
+}
+
+/* Regla 3 */
+div p.texto {
+    color: green;
+}
+
+/*Todas las reglas se cumplen, pero la regla 2, al tener dos clases, se prioriza esa, por ello todo el texto es rojo.

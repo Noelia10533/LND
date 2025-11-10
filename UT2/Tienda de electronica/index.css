@@ -1,0 +1,18 @@
+h1{
+    font-size: 20px;
+    font-family: PlayFair Display;
+    font-weight: 300;
+}
+
+.tamaño20{
+    font-style: italic;
+}
+
+.tamaño40{
+    transform: skewX(-14deg);
+}
+
+.tamaño60{
+    font-size: 20px;
+    font-weight: 900;
+}

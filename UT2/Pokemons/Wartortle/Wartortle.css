@@ -1,0 +1,80 @@
+#body{
+    background-color: #91c4d9;
+}
+
+.Título{
+    text-align: center;
+    color: #13639c;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.blanco{
+    color: #FFFFFF;
+}
+
+.fondo-tabla{
+    background-color: #639ad1;
+}
+
+.agua{
+    background-color: #92cdfd;
+}
+
+.planta{
+    background-color: #a5ffa5;
+}
+
+.eléctrico{
+    background-color: #eeec84;
+}
+
+.rosa{
+    background-color:#e7bfe7;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.normal{
+    background-color: #a9ada9;
+}
+
+.siniestro{
+    background-color: #768476;
+}
+
+a{
+    color: #000000;
+}
+
+#Características{
+    background-color: #639ad1;
+    border-width: 0px;
+    width: 50%;
+}
+
+.align{
+    width: 100%;
+    color: #639ad1;
+    border-width: 3px;
+    text-align: center;
+    border-style: solid;
+}
+
+.tabla{
+    width: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #639ad1;
+
+}
+
+#tabla-EV{
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #639ad1;
+
+}

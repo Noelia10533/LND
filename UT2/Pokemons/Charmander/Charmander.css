@@ -1,0 +1,84 @@
+#body{
+    background-color: #ffc2a9;
+}
+
+.Título{
+    color: #9b1f0f;
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.blanco{
+    color: #FFFFFF;
+}
+
+.fondo-tabla{
+    background-color: #c06f6f;
+}
+
+.fuego{
+    background-color: #d86161;
+}
+
+.agua{
+    background-color: #92cdfd;
+}
+
+.tierra{
+    background-color: #bbaa7d;
+}
+
+.roca{
+    background-color: #bdafb1;
+}
+
+.rosa{
+    background-color:#e7bfe7;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.normal{
+    background-color: #a9ada9;
+}
+
+.dragón{
+    background-color: #926eaf;
+}
+
+a{
+    color: #000000;
+}
+
+#Características{
+    background-color: #d86161;
+    border-width: 0px;
+    width: 50%;
+}
+
+.align{
+    width: 100%;
+    color: #d86161;
+    border-width: 3px;
+    text-align: center;
+    border-style: solid;
+}
+
+.tabla{
+    width: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #d86161;
+
+}
+
+#tabla-EV{
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #d86161;
+
+}

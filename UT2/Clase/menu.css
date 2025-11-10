@@ -1,0 +1,63 @@
+body{
+    /*Definimos la medias de body*/
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, brown, burlywood, brown);
+    /*Quitamos margin y padding*/
+    margin: 0px;
+    padding: 0px;
+    /*Desaparce la navegación*/
+    overflow: hidden; /*Quita el scroll*/
+    display: flex;
+    flex-direction: column;
+}
+
+#principio, #fin{
+    flex: 1;
+    /*Dispaly flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#central{
+    flex: 2;
+    display: flex;
+    flex-direction: row; /*Para filas*/
+}
+
+#menu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu nav{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu nav a{
+    flex: 1;
+    border: 2px solid brown;
+}
+
+#grid{
+    flex: 9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*Porque van a ser tres columnas que miden lo mismo*/
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.pokemon-container{
+    width: 80%;
+    height: 80%;
+    border: 2px solid brown;
+
+}

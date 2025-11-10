@@ -1,0 +1,89 @@
+#body{
+    background-color: #DDEAD1;
+}
+
+.Título{
+    text-align: center;
+    color: #008F39;
+    font-style: italic;
+    font-size: 60px;
+}
+
+
+.blanco{
+    color: #FFFFFF;
+}
+
+.planta{
+    background-color: #a5ffa5;
+}
+
+.fuego{
+    background-color: #d86161;
+}
+
+.hielo{
+    background-color: #92C5FC;
+}
+
+.veneno{
+    background-color: #b68fb8;
+}
+
+.volador{
+    background-color: #B2FFFF;
+}
+
+.psiquico{
+    background-color: #FFC0CB;
+}
+
+.fondo-tabla{
+    background-color: #9dc5a1;
+}
+
+.rosa{
+    background-color:#e7bfe7;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+a{
+    color: #000000;
+}
+
+
+.normal{
+    background-color: #a9ada9;
+}
+
+#Características{
+    background-color: #93A996;
+    border-width: 0px;
+    width: 50%;
+}
+
+.align{
+    width: 100%;
+    color: #93A996;
+    border-width: 3px;
+    text-align: center;
+    border-style: solid;
+}
+
+.tabla{
+    width: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #93A996;
+
+}
+
+#tabla-EV{
+    width: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #93A996;
+}
